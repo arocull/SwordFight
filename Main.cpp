@@ -7,28 +7,6 @@
 #include <cstdlib>
 #include <ctime>
 
-/*Notes:
- * getline(std::cin, variable);
- * stringstream(var);
- * 
- * 
- * myLabel:
- *  apdlpawld
- * goto myLabel
- * 
- * while; for; do while
- * for (initialization; condition; increment)
- * continue --Skips current run
- * 
- * switch (x) {
- * case 1:
- *  break
- * case 2:
- *  breal
- * default
- * 
-*/
-
 int RandomNumber(int min, int max){
     int rn = min + rand()%(max-min + 1);
     
